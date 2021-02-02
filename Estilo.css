@@ -1,0 +1,52 @@
+html{
+    background-color: rgb(245, 245, 245);
+}
+li {
+    font-size: 20px;
+    padding-left: 50px;
+    color: rgb(0, 0, 0);
+}
+p {
+    color: crimson;
+}
+
+.tittle {
+    background-color: darkmagenta;
+    color: darkorange;
+    padding-left: 50px;
+    
+}
+#protocolo {
+    background-color: darksalmon;
+}
+
+.subtittle {
+    color: green;
+    background-color: hotpink;
+}
+
+#mainbox{
+    border: 5px solid black;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.caja1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(21, 211, 224);
+}
+.caja2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(176, 15, 216);
+}
+.caja3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(226, 14, 14);
+}

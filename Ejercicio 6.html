@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Internet</title>
+        <link rel="stylesheet" href="Estilo.css">
+        <style>
+            ol {
+                font-size: 12px;
+            }
+            .tittle{
+                color: cornflowerblue;
+            }
+        </style>
     </head>
     <body>
-        <h1>Internet</h1>
-        <h2>Contenido</h2>
+        <h1 class="tittle">Internet</h1>
+        <h2 class="tittle">Contenido</h2>
         <ol>
             <li>Principales protocolos</li>
             <li>Formas de conectarse</li>
         </ol>
         <ol>
-            <h2><li>Principales protocolos</li></h2>
+            <h2 id="protocolo"><li>Principales protocolos</li></h2>
             <ul>
                 <li>Transmisión de fichero:</li>
                 <ul>
@@ -27,7 +37,7 @@
                 </ul>
             </ul>
             
-            <h2><li>Formas de conectarse</li></h2> 
+            <h2 class="tittle subtittle"><li>Formas de conectarse</li></h2> 
             <p>Red telefónica Conmutada (RTC)</p>
             <p>La línea telefónica de toda la vida. Para acceder a internet es necesario un módem</p> 
             <p>Red Digital de Servicios Integrados(RSDI)</p>
@@ -36,10 +46,16 @@
             <p>Se basa en la conversión de una línea RTC en una línea de alta velocidad. Para acceder a Internet es necesario un módem ADSL</p>
             <p>Fibra óptica</p>
             <p>Una línea de fibra óptica. Normalmente la fibra óptica no llega hasta el usuario final, por lo que el término más apropiado es Fibra Hirida Coaxial</p>
-            
-
-        
+             
                          
         </ol>
+        <div id="mainbox">
+            <div class="caja1"></div>
+            <div class="caja2"></div>
+            <div class="caja3"></div>
+        </div>
+        
+
+        
     </body>
 </html>
